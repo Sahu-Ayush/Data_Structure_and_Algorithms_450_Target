@@ -24,15 +24,11 @@ import sys
 arr = list(map(int, sys.stdin.readline().strip().split()))
 
 
-# reading usind input() function and list comprehension
+# reading using input() function and list comprehension
 #arr = [int(ele) for ele in input().split()]
 
 start = 0
 end = len(arr) - 1
-
-if arr == []:
-    print("empty")
-    sys.exit(0)
 
 while start < end:
     arr[start], arr[end] = arr[end], arr[start]

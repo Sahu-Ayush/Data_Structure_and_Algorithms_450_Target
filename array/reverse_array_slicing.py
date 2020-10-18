@@ -20,7 +20,7 @@ import sys
 # by default return a list of string so map, list-int
 arr = list(map(int, sys.stdin.readline().strip().split()))
 
-# reading usind input() function and list comprehension
+# reading using input() function and list comprehension
 #arr = [int(ele) for ele in input().split()]
 
 print(arr[::-1])

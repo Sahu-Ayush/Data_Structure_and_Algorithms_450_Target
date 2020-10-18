@@ -31,10 +31,10 @@ def reverseArray(arr, start, end):
 # Main
 
 # by default return a list of string so map, list-int
-arr = list(map(int, sys.stdin.readline().strip().split()))
+#arr = list(map(int, sys.stdin.readline().strip().split()))
 
-# reading usind input() function and list comprehension
-#arr = [int(ele) for ele in input().split()]
+# reading using input() function and list comprehension
+arr = [int(ele) for ele in input().split()]
 
 # calling function
 reverseArray(arr, 0, len(arr)-1)
