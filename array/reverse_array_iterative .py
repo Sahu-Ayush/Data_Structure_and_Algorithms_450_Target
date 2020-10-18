@@ -13,7 +13,7 @@ Approach: (Iterative way)
 2) In a loop, swap arr[start] with arr[end] and change start and end as follows: 
 start = start +1, end = end – 1
 
-Time Complexcity is O(log n)
+Time Complexcity is O(n)
 '''
 
 # Implementation
